@@ -1,0 +1,76 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Carousel</title>
+  <style>
+    body{
+      background-color: rgba(27,31,34,0.85);
+    }
+    h1{
+      font-size: 2.2rem;
+      line-height: 1.4;
+      letter-spacing: 0.5rem ;
+      text-align: center;
+      color: white;
+      margin-top: 70px;
+    }
+    .maindiv{
+      width: 60%;
+      height: 451px;
+      left: 50%;
+      top: 50%;
+      transform: translate(31% , 1%);
+      background-image: url('5.jpg');
+      background-size: 98% 119%;
+      box-shadow: 1px 2px 20px 5px white;
+      animation: slider 44s infinite linear;
+    }
+    @keyframes slider{
+      0%{
+        background-image: url('5.jpg');
+      }
+      8%{
+        background-image: url('6.jpg');
+      }
+      16%{
+        background-image: url('7.jpg');
+      }
+      24%{
+        background-image: url('8.jpg');
+      }
+      32%{
+        background-image: url('9.jpg');
+      }
+      40%{
+        background-image: url('10.jpg');
+      }
+      48%{
+        background-image: url('11.jpg');
+      }
+      56%{
+        background-image: url('1.jpeg');
+      }
+      64%{
+        background-image: url('2.jpg');
+      }
+      72%{
+        background-image: url('3.jpeg');
+      }
+      80%{
+        background-image: url('4.jpeg');
+      }
+      88%{
+        background-image: url('2.jpg');
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Image Carousel</h1>
+  <div class="maindiv">
+
+  </div>
+</body>
+</html>
